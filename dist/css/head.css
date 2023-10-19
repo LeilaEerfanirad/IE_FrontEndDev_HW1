@@ -54,21 +54,17 @@
 
 .head__text--button {
   border-radius: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 5rem;
   margin-left: 12rem;
   margin-right: 12rem;
-  width: 10%;
-  height: 7%;
+  font-size: 18px;
+  width: 8%;
+  height: 5%;
+  text-align: center;
+  padding-top: 1.6%;
+  padding-bottom: 1.6%;
   background-color: #50B2EA;
   font-weight: 700;
-}
-
-.head__text--helpme {
-  font-size: 18px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=head.css.map */
