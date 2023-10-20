@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'head';
+@import 'third_row';
+body {
+    color: $text-color ;
+    background-color: $white;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+

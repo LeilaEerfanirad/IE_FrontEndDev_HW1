@@ -1,0 +1,47 @@
+@import './variables';
+.thirdrow {
+    
+    flex-direction: column;
+    text-align: center;
+    &__up{
+        flex-direction: row;
+        margin-left: 1%;
+        margin-right: 1%;
+        &--header{
+            color: $blue;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+
+        }
+        &--des{
+            color: black;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        &--box{
+            padding-top: 3%;
+           // padding-bottom: 3%;
+            flex-direction: column;
+        }
+    }
+    &__down{
+        align-items: center;
+        text-align: center;
+        &--button{
+            border-radius: 0.5rem;
+            font-weight: 700;
+            line-height: 22px;
+            margin-bottom: 3%;
+            font-size: 14px;
+            width: 8%;
+            height: 19%;
+            text-align: center;
+            background-color: $blue;
+            font-weight: 700;
+        }
+       
+
+    }
+}
