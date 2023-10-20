@@ -97,17 +97,6 @@
   padding: 0;
 }
 
-.thirdrow {
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-  height: auto;
-}
-.thirdrow__up {
-  flex-direction: row;
-  margin-left: 1%;
-  margin-right: 1%;
-}
 .thirdrow__up--header {
   color: #50B2EA;
   font-size: 18px;
@@ -121,26 +110,8 @@
   line-height: 22px;
 }
 .thirdrow__up--box {
-  padding-top: 3%;
   flex-direction: column;
 }
-.thirdrow__down {
-  align-items: center;
-  text-align: center;
-}
-.thirdrow__down--button {
-  border-radius: 0.5rem;
-  font-weight: 700;
-  line-height: 22px;
-  margin-bottom: 3%;
-  font-size: 14px;
-  width: 8%;
-  height: 19%;
-  text-align: center;
-  background-color: #50B2EA;
-  font-weight: 700;
-}
-
 body {
   color: white;
   background-color: #F2F2F2;
