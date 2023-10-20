@@ -7,6 +7,8 @@
 .thirdrow {
   flex-direction: column;
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 .thirdrow__up {
   flex-direction: row;

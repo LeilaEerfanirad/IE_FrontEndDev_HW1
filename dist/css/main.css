@@ -100,6 +100,8 @@
 .thirdrow {
   flex-direction: column;
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 .thirdrow__up {
   flex-direction: row;
@@ -120,7 +122,7 @@
 }
 .thirdrow__up--box {
   padding-top: 3%;
-  flex-direction: row;
+  flex-direction: column;
 }
 .thirdrow__down {
   align-items: center;
