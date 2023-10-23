@@ -1,0 +1,51 @@
+@import './variables';
+.thirdrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 74px;
+
+    &__content {
+        padding-top: 16px;
+        padding-bottom:  30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .box {
+        width: 200px;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        &__title {
+            color: $blue;
+            margin-top: 16px;
+            max-width: 121px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__description {
+            color: $text-color;
+            margin-top: 14px;
+            max-width: 180px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+
+
+
+}

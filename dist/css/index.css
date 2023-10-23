@@ -106,6 +106,8 @@
   margin-top: 74px;
 }
 .thirdrow__content {
+  padding-top: 16px;
+  padding-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -139,9 +141,29 @@
   line-height: 22px;
 }
 
-body {
-  color: #19435A;
-  background-color: #F2F2F2;
-  height: 100vh;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}/*# sourceMappingURL=main.css.map */
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+button {
+  padding: 16px 32px;
+  background-color: #50B2EA;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #F2F2F2;
+}/*# sourceMappingURL=index.css.map */

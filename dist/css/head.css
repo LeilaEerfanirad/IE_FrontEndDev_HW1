@@ -40,7 +40,7 @@
   width: 566px;
   font-size: 14px;
   font-weight: 700;
-  color: white;
+  color: #19435A;
   background-color: blue;
 }
 .head__options--box {
@@ -48,7 +48,7 @@
   flex-direction: column;
 }
 .head__text {
-  color: white;
+  color: #19435A;
   float: left;
 }
 .head__text--question {
