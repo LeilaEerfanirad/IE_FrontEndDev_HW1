@@ -3,5 +3,12 @@
 @use 'third_row';
 @use 'main.scss';
 @use 'contact_us.scss';
+@use 'testymonials.scss';
+
+.footer{
+    background-color: $text-color;
+    width: 100%;
+    height: 1%;
+}
 
 
