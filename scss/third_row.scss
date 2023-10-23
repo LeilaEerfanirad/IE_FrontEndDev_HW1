@@ -1,31 +1,9 @@
 @import './variables';
 .thirdrow {
-    
-    &__up{
-        
-        &--header{
-            color: $blue;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 22px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
 
-        }
-        &--des{
-            color: black;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 22px;
-        }
-        &--box{
-            flex-direction: column;
-        }
-    }
-    &__down{
-        
-        &--button{
-           
-        }
-       
-
-    }
 }

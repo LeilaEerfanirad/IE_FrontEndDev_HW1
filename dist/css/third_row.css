@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+.thirdrow {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.thirdrow__up {
+  flex-direction: row;
+}
 .thirdrow__up--header {
   color: #50B2EA;
   font-size: 18px;
@@ -18,4 +27,8 @@
 }
 .thirdrow__up--box {
   flex-direction: column;
+}
+.thirdrow__down--button {
+  font-size: 14px;
+  font-weight: 700;
 }/*# sourceMappingURL=third_row.css.map */
