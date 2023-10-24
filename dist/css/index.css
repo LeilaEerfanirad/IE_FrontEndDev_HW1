@@ -16,9 +16,27 @@
   justify-content: center;
   width: 100%;
   flex-direction: column;
-  margin-top: 10px;
   background-color: #50B2EA;
-  background-image: url(../dist/images/MaskGroup.png);
+}
+.services__header {
+  color: #F2F2F2;
+  margin-top: 16px;
+  max-width: 210px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  padding-top: 10px;
+}
+.services__imgbox {
+  padding-top: 10px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+}
+.services__imgbox--img {
+  max-width: 180px;
+  max-height: 180px;
+  align-items: center;
 }
 
 * {
@@ -77,6 +95,46 @@
   padding: 0;
 }
 
+.firstrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.firstrow__left {
+  padding-left: 16%;
+  width: 50%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F2F2F2;
+}
+.firstrow__left--textbox {
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  background-color: #50B2EA;
+}
+.firstrow__right {
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #50B2EA;
+}
+.firstrow__right--img {
+  max-height: 509px;
+  max-width: 559px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-color: #F2F2F2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -91,6 +149,7 @@ button {
   background-color: #50B2EA;
   text-align: center;
   border: none;
+  border-color: #F2F2F2;
   border-radius: 10px;
   font-weight: 700;
   font-size: 14px;
