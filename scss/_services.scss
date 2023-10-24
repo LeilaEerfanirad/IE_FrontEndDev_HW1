@@ -1,0 +1,11 @@
+@import './variables';
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: $blue;
+    background-image: url(../dist/images/MaskGroup.png);
+}
