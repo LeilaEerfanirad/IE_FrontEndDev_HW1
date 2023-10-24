@@ -1,5 +1,6 @@
 @import './variables';
-.testymonials {
+
+.test {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,6 +8,7 @@
     flex-direction: column;
     margin-top: 74px;
     background-color: $blue;
+
     &__title {
         color: $white;
         margin-top: 16px;

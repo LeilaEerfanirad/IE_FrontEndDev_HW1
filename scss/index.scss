@@ -1,9 +1,10 @@
 @use 'variables';
-@use 'head';
+
 @use 'third_row';
-@use 'main.scss';
-@use 'contact_us.scss';
-@use 'testymonials.scss';
+@use 'main';
+@use 'test';
+@use 'contact_us';
+
 
 .footer{
     background-color: $text-color;
