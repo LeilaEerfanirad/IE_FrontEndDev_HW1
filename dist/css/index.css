@@ -121,6 +121,28 @@ button {
   gap: 20px;
   width: 100%;
 }
+.test__box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 577px;
+  height: 233px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+}
+.test__text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 577px;
+  height: 233px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 * {
   box-sizing: border-box;
