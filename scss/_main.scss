@@ -14,12 +14,15 @@ button {
     background-color: #50B2EA;
     text-align: center;
     border: none;
-    border-color: $white;
     border-radius: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
     color: $white;
+}
+
+#btn{
+  border: 1px solid $white;
 }
 .footer{
     background-color: $text-color;

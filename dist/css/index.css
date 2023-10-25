@@ -99,34 +99,71 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  flex-direction: row;
-  margin-top: 10px;
-}
-.firstrow__left {
-  padding-left: 16%;
-  width: 50%;
-  padding-top: 40px;
-  padding-bottom: 40px;
   background-color: #F2F2F2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #F2F2F2 0%, #F2F2F2 50%, #50B2EA 50%, #50B2EA 50%);
 }
-.firstrow__left--textbox {
-  border-bottom-left-radius: 40px;
-  border-top-left-radius: 40px;
-  background-color: #50B2EA;
-}
-.firstrow__right {
-  width: 50%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #50B2EA;
-}
-.firstrow__right--img {
+.firstrow__box {
+  border: 4px solid #F2F2F2;
+  border-radius: 40px;
+  max-width: 1199px;
   max-height: 509px;
-  max-width: 559px;
-  border-bottom-right-radius: 40px;
-  border-top-right-radius: 40px;
-  border-color: #F2F2F2;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  margin-top: 10px;
+  background-color: #50B2EA;
+}
+.firstrow__text {
+  flex-direction: column;
+  max-width: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.firstrow__text--header {
+  color: #F2F2F2;
+  max-width: 518px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+.firstrow__text--description {
+  color: #19435A;
+  margin-top: 12px;
+  max-width: 520px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.firstrow__option {
+  margin-top: 20px;
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  max-width: 50%;
+  padding-right: 20px;
+}
+.firstrow__option--description {
+  color: #F2F2F2;
+  max-width: 518px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+.firstrow__option--img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
 }
 
 * {
@@ -149,12 +186,15 @@ button {
   background-color: #50B2EA;
   text-align: center;
   border: none;
-  border-color: #F2F2F2;
   border-radius: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
   color: #F2F2F2;
+}
+
+#btn {
+  border: 1px solid #F2F2F2;
 }
 
 .footer {
