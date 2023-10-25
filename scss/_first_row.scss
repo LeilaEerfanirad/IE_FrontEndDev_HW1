@@ -32,14 +32,23 @@
         background-color: $blue;
 
     }
+
+    #extra {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     
     &__text{
         flex-direction: column;
-        max-width: 50%;
+       // max-width: 50%;
         padding-top: 30px;
         padding-bottom: 30px;
         padding-left: 40px;
         padding-right: 20px;
+
+        
         
         &--header {
             color: $white;
@@ -82,8 +91,8 @@
         }
 
         &--img {
-            width: 18px;
-            height: 18px;
+            max-width: 18px;
+            max-height: 18px;
             margin-right: 5px;
         }
     }
