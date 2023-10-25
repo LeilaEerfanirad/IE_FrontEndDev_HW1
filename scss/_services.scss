@@ -20,10 +20,14 @@
     }
 
     &__imgbox {
-        padding-top: 10px;
-        padding-right: 20px;
+        margin: 10px;
+        margin: 20px;
         flex-wrap: wrap;
+        border: 3px;
+        border-color: $white;
         &--img {
+           
+            
             max-width: 180px;
             max-height: 180px;
             align-items: center;
