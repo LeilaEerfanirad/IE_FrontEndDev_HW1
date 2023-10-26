@@ -5,9 +5,7 @@
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    //margin-top: 10px;
     background-color: $blue;
-    //background-image: url(../dist/images/MaskGroup.png);
     &__header{
         color: $white;
         margin-top: 16px;
@@ -20,14 +18,28 @@
     }
 
     &__imgbox {
+        
+        display: flex;
+        justify-content: center;
         margin: 10px;
         margin: 20px;
         flex-wrap: wrap;
-        border: 3px;
-        border-color: $white;
-        &--img {
-           
+        flex-direction: row;
+        
+        
+       
+        &--imgborder{
+           display: inline-block;
+           transform: rotate(45deg);
+            border: 3px solid $white;
+            padding: 25px;
+            border-radius: 30px;
+            margin: 30px;
             
+        }
+        &--img {
+            display: inline-block;
+            transform: rotate(315deg);
             max-width: 180px;
             max-height: 180px;
             align-items: center;
