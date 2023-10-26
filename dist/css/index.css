@@ -17,6 +17,7 @@
   width: 100%;
   flex-direction: column;
   background-color: #50B2EA;
+  background-image: url(../images/MaskGroup.png);
 }
 .services__header {
   color: #F2F2F2;
@@ -41,7 +42,7 @@
   transform: rotate(45deg);
   border: 3px solid #F2F2F2;
   padding: 25px;
-  border-radius: 30px;
+  border-radius: 20px;
   margin: 30px;
 }
 .services__imgbox--img {

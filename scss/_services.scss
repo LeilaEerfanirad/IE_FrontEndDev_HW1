@@ -6,6 +6,7 @@
     width: 100%;
     flex-direction: column;
     background-color: $blue;
+    background-image: url(../images/MaskGroup.png);
     &__header{
         color: $white;
         margin-top: 16px;
@@ -33,7 +34,7 @@
            transform: rotate(45deg);
             border: 3px solid $white;
             padding: 25px;
-            border-radius: 30px;
+            border-radius: 20px;
             margin: 30px;
             
         }
