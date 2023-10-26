@@ -134,7 +134,7 @@
 }
 @media screen and (max-width: 1519px) {
   .firstrow__box {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 .firstrow #txt {
