@@ -132,11 +132,10 @@
   flex-direction: row;
   background-color: #50B2EA;
 }
-.firstrow #img {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+@media screen and (max-width: 1519px) {
+  .firstrow__box {
+    flex-direction: column;
+  }
 }
 .firstrow #txt {
   padding-top: 30px;
@@ -146,6 +145,9 @@
 }
 .firstrow__text {
   flex-direction: column;
+}
+.firstrow__text #img {
+  width: 70%;
 }
 .firstrow__text--header {
   color: #F2F2F2;
@@ -241,7 +243,6 @@ button {
 .test__title {
   color: #F2F2F2;
   margin-top: 16px;
-  max-width: 336px;
   text-align: center;
   font-weight: 700;
   font-size: 48px;
@@ -269,9 +270,9 @@ button {
 }
 .test__text {
   padding-top: 10px;
+  margin-right: 15px;
   padding-bottom: 10px;
   padding-left: 10px;
-  height: 233px;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -312,8 +313,8 @@ button {
   max-height: 18px;
 }
 .test__text--img {
-  margin-top: 16px;
-  margin-right: 15px;
+  align-self: self-start;
+  padding: 16px;
 }
 
 * {
@@ -332,9 +333,8 @@ button {
   background-image: url(../images/header_background.png);
 }
 .head__header {
-  max-width: 418px;
-  max-height: 87px;
   margin-top: 100px;
+  width: 21%;
 }
 .head__question {
   font-size: 48px;
@@ -357,11 +357,10 @@ button {
 }
 .head__box {
   display: flex;
+  padding-left: 70px;
   align-items: center;
   justify-content: center;
-  max-width: 566px;
   flex-wrap: wrap;
-  max-height: 136px;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 40px;
@@ -369,11 +368,9 @@ button {
 }
 .head__smallbox {
   display: flex;
-  margin-right: 50px;
+  margin-right: 70px;
   align-items: center;
   justify-content: center;
-  max-width: 102px;
-  max-height: 136px;
   flex-direction: column;
 }
 .head__smallbox--img {

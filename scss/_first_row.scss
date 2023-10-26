@@ -37,9 +37,7 @@
     &__box {
         border: 4px solid $white;
         border-radius: 40px;
-      //  max-width: 1007px;
         width: 70%;
-       // max-height: 509px;
         margin-bottom: 20px;
         margin-left: 20%;
         margin-right: 20%;
@@ -48,17 +46,9 @@
         flex-direction: row;
         background-color: $blue;
 
-        // @media (max-width : 1007px) {
-        //     @include change();
-        // }
-
-    }
-
-    #img {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        @media screen and (max-width: 1519px) {
+            flex-direction: column;
+        }
         
 
     }
@@ -69,11 +59,17 @@
         padding-left: 40px;
         padding-right: 20px;
     }
+
+    
     
     &__text{
         flex-direction: column;
        // max-width: 50%;
         
+       #img {
+            width: 70%;
+           // height: fit-content;
+        }
         &--header {
             color: $white;
             max-width: 518px;

@@ -6,15 +6,16 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    // max-height: 840px;
     flex-direction: column;
     padding-bottom: 90px;
     background-image : url(../images/header_background.png);
 
     &__header{
-        max-width: 418px;
-        max-height: 87px;
+        // max-width: 418px;
+        // max-height: 87px;
         margin-top: 100px;
+        width: 21%;
+
     }
 
     &__question{
@@ -42,11 +43,11 @@
     &__box{
 
         display: flex;
+        padding-left: 70px;
         align-items: center;
         justify-content: center;
-        max-width: 566px;
         flex-wrap: wrap;
-        max-height: 136px;
+       // max-height: 136px;
         flex-direction: row;
         flex-wrap: wrap;
         margin-bottom: 40px;
@@ -55,11 +56,9 @@
 
     &__smallbox{
         display: flex;
-        margin-right: 50px;
+        margin-right: 70px;
         align-items: center;
         justify-content: center;
-        max-width: 102px;
-        max-height: 136px;
         flex-direction: column;
 
         &--img{
