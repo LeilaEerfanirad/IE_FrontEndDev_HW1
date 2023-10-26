@@ -298,6 +298,7 @@ button {
 }
 .test__text--starbox {
   margin-top: 10px;
+  margin-bottom: 10px;
   padding-right: 2px;
   align-self: flex-start;
   flex-direction: row;
