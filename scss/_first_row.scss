@@ -48,9 +48,6 @@
 
         @media screen and (max-width: 1519px) {
             flex-direction: column-reverse;
-            
-            
-            
         }
         
 
@@ -67,11 +64,17 @@
     
     &__text{
         flex-direction: column;
-       // max-width: 50%;
         
-       #img {
-            width: 70%;
-           // height: fit-content;
+       &--img {
+            padding-right: 4px;
+            height: 100%;
+            @media screen and (max-width: 1519px) {
+                width: 100%;
+                padding-right: 0px;
+                border-bottom-left-radius: 40px;
+                border-top-left-radius: 40px;
+            }
+
         }
         &--header {
             color: $white;

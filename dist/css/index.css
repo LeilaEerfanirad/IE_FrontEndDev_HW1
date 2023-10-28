@@ -146,8 +146,17 @@
 .firstrow__text {
   flex-direction: column;
 }
-.firstrow__text #img {
-  width: 70%;
+.firstrow__text--img {
+  padding-right: 4px;
+  height: 100%;
+}
+@media screen and (max-width: 1519px) {
+  .firstrow__text--img {
+    width: 100%;
+    padding-right: 0px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+  }
 }
 .firstrow__text--header {
   color: #F2F2F2;
@@ -423,6 +432,7 @@ button {
   border-radius: 40px;
   text-align: center;
   background-color: #50B2EA;
+  opacity: 50%;
 }
 .contact__footer {
   padding-top: 10px;
